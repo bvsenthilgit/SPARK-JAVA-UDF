@@ -1,6 +1,10 @@
 # SPARK-JAVA-UDF
-Create a SPARK UDF in JAVA and invoke in PYSPARK 
-I ran into a situation where I had to use a custom Java built function in the PySpark. The Java Jar is common component used in multiple applications and I do not want to replicate it in Python to avoid redundancy & maintenance issues later in time. 
+
+## Create a SPARK UDF in JAVA and invoke in PYSPARK
+
+ 
+Hi! I ran into a situation where I had to use a custom Java built function in the PySpark. The Java Jar is common component used in multiple applications and I do not want to replicate it in Python to avoid redundancy & maintenance issues later in time.
+
 
 Here is a solution for the same: 
 There are two different way to invoke Java function in PySpark by spinning a JVM:
