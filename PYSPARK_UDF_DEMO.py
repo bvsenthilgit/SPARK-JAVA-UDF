@@ -56,4 +56,4 @@ df1.show(3)
 
 #Command to run the spark code
 #export path="<jarpath>/SHAUDF-0.0.1-SNAPSHOT.jar,<jarpath>/teradata-connector-1.6.0.jar,<jarpath>/terajdbc4.jar,<jarpath>/tdgssconfig.jar"
-#/usr/bin/spark-submit --jars  $path /home/sbogana/PYSPARK_UDF_DEMO.py
+#/usr/bin/spark-submit --jars  $path <path>/PYSPARK_UDF_DEMO.py
